@@ -1,5 +1,5 @@
 # Enables CORS Policy for fonts, etc.
-Header add Access-Control-Allow-Origin "PUT_DOMAIN_NAME_HERE"
+Header add Access-Control-Allow-Origin "https://silver-babka-8f7d6c.netlify.app/"
 
 # Browser Caching Expires - Helps boost performance with caching
 <IfModule mod_expires.c>

@@ -2,7 +2,7 @@
   "name": "carmondo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "#",
+  "homepage": "https://silver-babka-8f7d6c.netlify.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build && node copy-headers.js",

@@ -1,1 +1,24 @@
-/*# sourceMappingURL=NotFound.module.css.map */
+@font-face {
+  font-family: "NS Black";
+  src: url("../../../fonts/Black.ttf");
+}
+@font-face {
+  font-family: "NS Extra Bold";
+  src: url("../../../fonts/ExtraBold.ttf");
+}
+@font-face {
+  font-family: "NS Bold";
+  src: url("../../../fonts/Bold.ttf");
+}
+@font-face {
+  font-family: "NS Semi Bold";
+  src: url("../../../fonts/SemiBold.ttf");
+}
+@font-face {
+  font-family: "NS Medium";
+  src: url("../../../fonts/Medium.ttf");
+}
+@font-face {
+  font-family: "NS Regular";
+  src: url("../../../fonts/Regular.ttf");
+}/*# sourceMappingURL=NotFound.module.css.map */

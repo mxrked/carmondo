@@ -1,0 +1,57 @@
+[
+  {
+    "vehicleID": "V_SUV_01",
+    "vehicleName": "Toyota RAV4",
+    "vehicleType": "suv",
+    "vehicleEngine": "2.5 I4",
+    "vehicleTransmission": "8SA",
+    "vehicleFuelEconomy": "26-28 city/34-35 hwy",
+    "vehiclePrice": "$26,325",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/suvs/toyota-rav4.webp"
+  },
+  {
+    "vehicleID": "V_SUV_02",
+    "vehicleName": "Honda CR-V",
+    "vehicleType": "suv",
+    "vehicleEngine": "1.5 TC I4",
+    "vehicleTransmission": "CVT",
+    "vehicleFuelEconomy": "27-28 city/32-34 hwy",
+    "vehiclePrice": "$31,445",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/suvs/honda-cr-v.webp"
+  },
+  {
+    "vehicleID": "V_SUV_03",
+    "vehicleName": "Tesla Model Y",
+    "vehicleType": "suv",
+    "vehicleEngine": "Electric",
+    "vehicleTransmission": "SS DD",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$35,232",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/suvs/tesla-model-y.webp"
+  },
+  {
+    "vehicleID": "V_SUV_04",
+    "vehicleName": "Jeep Grand Cherokee",
+    "vehicleType": "suv",
+    "vehicleEngine": "V6/V8",
+    "vehicleTransmission": "8SA",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$38,181",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/suvs/jeep-grand-cherokee.webp"
+  },
+  {
+    "vehicleID": "V_SUV_05",
+    "vehicleName": "Toyota Highlander",
+    "vehicleType": "suv",
+    "vehicleEngine": "V6",
+    "vehicleTransmission": "8SA",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$41,065",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/suvs/toyota-highlander.webp"
+  }
+]

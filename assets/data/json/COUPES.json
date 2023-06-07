@@ -1,0 +1,57 @@
+[
+  {
+    "vehicleID": "V_COUPE_01",
+    "vehicleName": "Subaru BRZ",
+    "vehicleType": "coupe",
+    "vehicleEngine": "4C Boxer",
+    "vehicleTransmission": "6SM/6SA",
+    "vehicleFuelEconomy": "20-21 city/27-30 hwy",
+    "vehiclePrice": "$19,050",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/coupes/subaru-brz.webp"
+  },
+  {
+    "vehicleID": "V_COUPE_02",
+    "vehicleName": "Toyota GR86",
+    "vehicleType": "coupe",
+    "vehicleEngine": "4C Boxer",
+    "vehicleTransmission": "6SM/6SA",
+    "vehicleFuelEconomy": "22-23 city/29-32 hwy",
+    "vehiclePrice": "$24,100",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/coupes/toyota-gr86.webp"
+  },
+  {
+    "vehicleID": "V_COUPE_03",
+    "vehicleName": "Ford Mustang",
+    "vehicleType": "coupe",
+    "vehicleEngine": "EcoBoost",
+    "vehicleTransmission": "10S A",
+    "vehicleFuelEconomy": "22 city/30 hwy",
+    "vehiclePrice": "$27,155",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/coupes/ford-mustang.webp"
+  },
+  {
+    "vehicleID": "V_COUPE_04",
+    "vehicleName": "Dodge Challenger",
+    "vehicleType": "coupe",
+    "vehicleEngine": "V6/V8 Hemi",
+    "vehicleTransmission": "8SA/6SM",
+    "vehicleFuelEconomy": "19-21 city/30-31 hwy",
+    "vehiclePrice": "$31,295",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/coupes/dodge-challenger.webp"
+  },
+  {
+    "vehicleID": "V_COUPE_05",
+    "vehicleName": "BMW M4",
+    "vehicleType": "coupe",
+    "vehicleEngine": "TwinPower Turbo",
+    "vehicleTransmission": "7S DCA/6SM",
+    "vehicleFuelEconomy": "16-18 city/23-25 hwy",
+    "vehiclePrice": "$36,353",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/coupes/bmw-m4.webp"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "vehicleID": "V_SEDAN_01",
+    "vehicleName": "Hyundai Accent",
+    "vehicleType": "sedan",
+    "vehicleEngine": "1.6 I4",
+    "vehicleTransmission": "6SA",
+    "vehicleFuelEconomy": "28 city/38 hwy",
+    "vehiclePrice": "$16,500",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/sedans/hyundai-accent.webp"
+  },
+  {
+    "vehicleID": "V_SEDAN_02",
+    "vehicleName": "Kia Rio",
+    "vehicleType": "sedan",
+    "vehicleEngine": "1.6 I4",
+    "vehicleTransmission": "6SA",
+    "vehicleFuelEconomy": "33 city/41 hwy",
+    "vehiclePrice": "$17,260",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/sedans/kia-rio.webp"
+  },
+  {
+    "vehicleID": "V_SEDAN_03",
+    "vehicleName": "Honda Civic",
+    "vehicleType": "sedan",
+    "vehicleEngine": "2.0 I4/1.5 TC I4",
+    "vehicleTransmission": "CVT/6SM",
+    "vehicleFuelEconomy": "30-32 city/38-42 hwy",
+    "vehiclePrice": "$20,100",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/sedans/honda-civic.webp"
+  },
+  {
+    "vehicleID": "V_SEDAN_04",
+    "vehicleName": "Mazda 3",
+    "vehicleType": "sedan",
+    "vehicleEngine": "2.0/2.5 I4",
+    "vehicleTransmission": "6SA/6SM",
+    "vehicleFuelEconomy": "25-28 city/33-36 hwy",
+    "vehiclePrice": "$23,450",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/sedans/mazda-3.webp"
+  },
+  {
+    "vehicleID": "V_SEDAN_05",
+    "vehicleName": "BMW 3-Series",
+    "vehicleType": "sedan",
+    "vehicleEngine": "2.0 I4/3.0 I6",
+    "vehicleTransmission": "8SA/6SM",
+    "vehicleFuelEconomy": "25-27 city/34-36 hwy",
+    "vehiclePrice": "$27,210",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/sedans/bmw-3-series.webp"
+  }
+]

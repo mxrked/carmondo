@@ -1,0 +1,57 @@
+[
+  {
+    "vehicleID": "V_PICKUP_01",
+    "vehicleName": "Ford Maverick",
+    "vehicleType": "pickup",
+    "vehicleEngine": "2.0 I4H/2.5 I4H",
+    "vehicleTransmission": "CVT",
+    "vehicleFuelEconomy": "40-42 city/33-35 hwy",
+    "vehiclePrice": "$27,140",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/pickup-trucks/ford-maverick.webp"
+  },
+  {
+    "vehicleID": "V_PICKUP_02",
+    "vehicleName": "Hyundai Santa Cruz",
+    "vehicleType": "pickup",
+    "vehicleEngine": "2.5 I4/2.5 TC I4",
+    "vehicleTransmission": "8SA",
+    "vehicleFuelEconomy": "22-24 city/26-28 hwy",
+    "vehiclePrice": "$30,452",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/pickup-trucks/hyundai-santa-cruz.webp"
+  },
+  {
+    "vehicleID": "V_PICKUP_03",
+    "vehicleName": "Rivian R1T",
+    "vehicleType": "pickup",
+    "vehicleEngine": "Electric",
+    "vehicleTransmission": "SS DD",
+    "vehicleFuelEconomy": "135 kWh",
+    "vehiclePrice": "$33,415",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/pickup-trucks/rivian-r1t.webp"
+  },
+  {
+    "vehicleID": "V_PICKUP_04",
+    "vehicleName": "Honda Ridgeline",
+    "vehicleType": "pickup",
+    "vehicleEngine": "3.5 V6",
+    "vehicleTransmission": "9SA",
+    "vehicleFuelEconomy": "18-19 city/24-26 hwy",
+    "vehiclePrice": "$36,065",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/pickup-trucks/honda-ridgeline.webp"
+  },
+  {
+    "vehicleID": "V_PICKUP_05",
+    "vehicleName": "Chevy Colorado",
+    "vehicleType": "pickup",
+    "vehicleEngine": "2.5 I4/3.6 V6/2.8 TC",
+    "vehicleTransmission": "6SA/8SA",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$40,432",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/pickup-trucks/chevy-colorado.webp"
+  }
+]

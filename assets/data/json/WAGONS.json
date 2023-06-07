@@ -1,0 +1,57 @@
+[
+  {
+    "vehicleID": "V_WAGON_01",
+    "vehicleName": "Subaru Outback",
+    "vehicleType": "wagon",
+    "vehicleEngine": "Boxer",
+    "vehicleTransmission": "CVT",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$26,015",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/wagons/subaru-outback.webp"
+  },
+  {
+    "vehicleID": "V_WAGON_02",
+    "vehicleName": "Audi A4 Allroad",
+    "vehicleType": "wagon",
+    "vehicleEngine": "TC I4",
+    "vehicleTransmission": "7S DCA",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$30,155",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/wagons/audi-a4-allroad.webp"
+  },
+  {
+    "vehicleID": "V_WAGON_03",
+    "vehicleName": "Volvo V60",
+    "vehicleType": "wagon",
+    "vehicleEngine": "TC I4/PI",
+    "vehicleTransmission": "8SA",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$33,416",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/wagons/volvo-v60.webp"
+  },
+  {
+    "vehicleID": "V_WAGON_04",
+    "vehicleName": "Porsche Panamera GTS",
+    "vehicleType": "wagon",
+    "vehicleEngine": "TTC V8",
+    "vehicleTransmission": "8S PDK",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$36,045",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/wagons/porsche-panamera-gts.webp"
+  },
+  {
+    "vehicleID": "V_WAGON_05",
+    "vehicleName": "Mercedes-Benz E-Class",
+    "vehicleType": "wagon",
+    "vehicleEngine": "I4/V6/V8",
+    "vehicleTransmission": "9SA/7SA",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$40,305",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/wagons/mercedes-benz-e-class.webp"
+  }
+]

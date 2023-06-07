@@ -1,0 +1,136 @@
+Subaru Outback
+
+Engine:
+Type: Boxer engine (Horizontally opposed)
+Power output: Varies based on model and trim level
+Torque: Varies based on model and trim level
+Fuel type: Gasoline
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: Lineartronic® Continuously Variable Transmission (CVT)
+Drive type: Symmetrical All-Wheel Drive (standard on all models)
+Fuel Economy (EPA-estimated):
+City: Varies based on engine and drivetrain configuration
+Highway: Varies based on engine and drivetrain configuration
+Combined: Varies based on engine and drivetrain configuration
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: Up to 75.7 cubic feet with the rear seats folded down
+Seating Capacity: 5 passengers
+Safety Features: Subaru EyeSight® Driver Assist Technology, including features like Pre-Collision Braking, Adaptive Cruise Control, Lane Departure and Sway Warning, and Lane Keep Assist.
+
+Off-Road Capability:
+The Subaru Outback is designed with off-road capability in mind, featuring standard Symmetrical All-Wheel Drive, X-MODE® for enhanced traction in challenging conditions, and increased ground clearance.
+
+Price: $26,015
+Mileage: 52,837
+
+Audi A4 Allroad
+
+Engine:
+Type: Turbocharged inline-4
+Power output: Varies based on model and trim level
+Torque: Varies based on model and trim level
+Fuel type: Gasoline
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 7-speed S tronic dual-clutch automatic transmission
+Drive type: Quattro® all-wheel drive (standard on all models)
+
+Fuel Economy (EPA-estimated):
+City: Varies based on engine and drivetrain configuration
+Highway: Varies based on engine and drivetrain configuration
+Combined: Varies based on engine and drivetrain configuration
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: Up to 58.5 cubic feet with the rear seats folded down
+Seating Capacity: 5 passengers
+Safety Features: Audi Pre Sense® Basic and Audi Pre Sense® City, which includes features like forward collision warning, automatic emergency braking, and pedestrian detection. Optional advanced safety features such as adaptive cruise control, lane keep assist, and blind-spot monitoring are also available.
+Off-Road Capability:
+The Audi A4 Allroad comes with increased ground clearance compared to the standard A4 sedan, as well as specialized off-road driving modes and Quattro® all-wheel drive, allowing for enhanced traction and control on various terrain.
+
+Price: $30,155
+Mileage: 52,837
+
+Volvo V60
+
+Engine:
+Type: Turbocharged inline-4 or plug-in hybrid powertrain available
+Power output: Varies based on model and trim level
+Torque: Varies based on model and trim level
+Fuel type: Gasoline (for the turbocharged inline-4) or gasoline-electric hybrid (for the plug-in hybrid)
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed automatic transmission
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: Varies based on engine and drivetrain configuration
+Highway: Varies based on engine and drivetrain configuration
+Combined: Varies based on engine and drivetrain configuration
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: Up to 50.9 cubic feet with the rear seats folded down
+Seating Capacity: 5 passengers
+Safety Features: Volvo City Safety system with collision avoidance and mitigation, Lane Keeping Aid, Road Sign Information, Run-off Road Mitigation, and other advanced driver-assistance features. Optional advanced safety features such as Blind Spot Information System (BLIS) with Cross Traffic Alert, Pilot Assist (semi-autonomous driving), and more are available.
+
+Price: $33,416
+Mileage: 52,837
+
+Porsche Panamera GTS
+
+Engine:
+Type: Twin-turbocharged V8 engine
+Power output: 473 horsepower
+Torque: 457 lb-ft
+Fuel type: Gasoline
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed Porsche Doppelkupplung (PDK) automatic transmission
+Drive type: All-wheel drive (Porsche Traction Management)
+Performance:
+Acceleration (0-60 mph): Approximately 3.9 seconds
+Top speed: Approximately 181 mph
+
+Fuel Economy (EPA-estimated):
+City: Varies based on driving conditions and habits
+Highway: Varies based on driving conditions and habits
+Combined: Varies based on driving conditions and habits
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: Up to 46.0 cubic feet with the rear seats folded down
+Seating Capacity: 4 passengers
+Safety Features: Porsche Advanced Safety Systems, including features such as Porsche Stability Management (PSM), Porsche Ceramic Composite Brake (PCCB), Adaptive Cruise Control, Lane Keep Assist, ParkAssist (front and rear), and more.
+
+Price: $36,045
+Mileage: 52,837
+
+Mercedes-Benz E-Class
+
+Engine:
+Type: Inline-4, V6, or V8 engine options available
+Power output: Varies based on model and trim level
+Torque: Varies based on model and trim level
+Fuel type: Gasoline or diesel (availability may vary by region)
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 9-speed automatic transmission or 7-speed automatic transmission (depending on the model and year)
+Drive type: Rear-wheel drive or available 4MATIC all-wheel drive (varies by model and trim level)
+
+Fuel Economy (EPA-estimated):
+City: Varies based on engine and drivetrain configuration
+Highway: Varies based on engine and drivetrain configuration
+Combined: Varies based on engine and drivetrain configuration
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: The E-Class sedan offers a trunk capacity of approximately 13.1 cubic feet (varies slightly by model and configuration)
+Seating Capacity: 5 passengers
+Safety Features: Mercedes-Benz offers a wide range of safety features in the E-Class, including advanced driver assistance systems such as Active Brake Assist, Blind Spot Assist, Lane Keeping Assist, Adaptive Cruise Control, and Pre-Safe collision preparation system.
+
+Price: $40,305
+Mileage: 52,837

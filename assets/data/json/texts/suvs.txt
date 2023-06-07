@@ -1,0 +1,144 @@
+Toyota RAV4
+
+Engine:
+Type: 2.5-liter inline-4
+Power output: 203 horsepower
+Torque: 184 lb-ft
+Fuel type: Gasoline
+Compression ratio: 12.5:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed automatic
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: 26-28 mpg (front-wheel drive), 25-27 mpg (all-wheel drive)
+Highway: 34-35 mpg (front-wheel drive), 33-34 mpg (all-wheel drive)
+Combined: 29-30 mpg (front-wheel drive), 28-29 mpg (all-wheel drive)
+Fuel tank capacity: Approximately 14.5 gallons
+Cargo Capacity: Up to 69.8 cubic feet with the rear seats folded down
+Seating Capacity: 5 passengers
+Safety Features: Toyota Safety Sense™ 2.0, including features like Pre-Collision System with Pedestrian Detection, Lane Departure Alert with Steering Assist, Full-Speed Range Dynamic Radar Cruise Control, and more.
+
+Price: $26,325
+Mileage: 52,837
+
+Honda CR-V
+
+Engine:
+Type: 1.5-liter turbocharged inline-4
+Power output: 190 horsepower
+Torque: 179 lb-ft
+Fuel type: Gasoline
+Compression ratio: 10.3:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: Continuously Variable Transmission (CVT)
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: 27-28 mpg (front-wheel drive), 26-27 mpg (all-wheel drive)
+Highway: 32-34 mpg (front-wheel drive), 30-32 mpg (all-wheel drive)
+Combined: 29-30 mpg (front-wheel drive), 28-29 mpg (all-wheel drive)
+Fuel tank capacity: Approximately 14 gallons
+Cargo Capacity: Up to 75.8 cubic feet with the rear seats folded down
+
+Seating Capacity: 5 passengers
+Safety Features: Honda Sensing® suite of safety and driver-assistive technologies, including features like Collision Mitigation Braking System™, Road Departure Mitigation System, Adaptive Cruise Control with Low-Speed Follow, Lane Keeping Assist System, and more.
+
+Price: $31,445
+Mileage: 52,837
+
+Tesla Model Y
+
+Electric Powertrain:
+Type: All-electric
+Battery capacity: Varies based on configuration (Long Range or Performance)
+Range (EPA-estimated):
+Long Range: 326-336 miles
+Performance: 303-315 miles
+Power output:
+Long Range: Varies based on configuration (dual motor all-wheel drive)
+Performance: Varies based on configuration (dual motor all-wheel drive)
+Torque:
+Long Range: Varies based on configuration
+Performance: Varies based on configuration
+Charging time (Supercharger V3):
+15% to 80%: Approximately 25 minutes
+
+Transmission:
+Type: Single-speed direct-drive
+Drive type: All-wheel drive
+Performance (Performance Model):
+Acceleration (0-60 mph):
+Performance: 3.5 seconds
+Top speed:
+Performance: 155 mph
+Cargo Capacity: Up to 68 cubic feet with the rear seats folded down
+Seating Capacity: 5-7 passengers (depending on configuration)
+
+Autopilot:
+Tesla Autopilot features available, offering advanced driver assistance capabilities
+
+Price: $35,232
+Mileage: 52,837
+
+Jeep Grand Cherokee
+
+Engine:
+Type: V6 or V8 engine options available
+Power output:
+V6 Engine: Horsepower varies based on model and trim level
+V8 Engine: Horsepower varies based on model and trim level
+Torque: Torque varies based on engine and trim level
+Fuel type: Gasoline
+Valve configuration: Varies based on engine type
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed automatic transmission
+Drive type: Rear-wheel drive or available four-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: Varies based on engine and drivetrain configuration
+Highway: Varies based on engine and drivetrain configuration
+Combined: Varies based on engine and drivetrain configuration
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: Up to 68.3 cubic feet with the rear seats folded down
+Seating Capacity: 5 passengers (some models offer an available third row for 7-passenger seating)
+
+Off-Road Capability:
+Jeep Grand Cherokee is known for its off-road capabilities, with various trims offering advanced 4x4 systems, rugged suspension setups, and off-road-specific features.
+
+Price: $38,181
+Mileage: 52,837
+
+Toyota Highlander
+
+Engine:
+Type: V6 engine
+Power output: Varies based on model and trim level
+Torque: Varies based on model and trim level
+Fuel type: Gasoline
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed automatic transmission
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: Varies based on engine and drivetrain configuration
+Highway: Varies based on engine and drivetrain configuration
+Combined: Varies based on engine and drivetrain configuration
+Fuel tank capacity: Varies based on model and trim level
+Cargo Capacity: Up to 84.3 cubic feet with the rear seats folded down (varies based on seating configuration)
+Seating Capacity: 7-8 passengers (varies based on seating configuration)
+Safety Features: Toyota Safety Sense™ 2.5+, including features like Pre-Collision System with Pedestrian Detection, Full-Speed Range Dynamic Radar Cruise Control, Lane Departure Alert with Steering Assist, Automatic High Beams, and more.
+
+Price: $41,065
+Mileage: 52,837

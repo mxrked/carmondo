@@ -1,0 +1,172 @@
+Subaru BRZ
+
+Engine:
+Type: 2.4-liter horizontally opposed 4-cylinder (Boxer)
+Power output: 228 horsepower
+Torque: 184 lb-ft
+Fuel type: Gasoline
+Compression ratio: 13.5:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 6-speed manual or 6-speed automatic with paddle shifters
+Drive type: Rear-wheel drive
+Gear ratios (6-speed manual):
+1st: 3.626
+2nd: 2.188
+3rd: 1.541
+4th: 1.213
+5th: 1.000
+6th: 0.823
+Reverse: 3.545
+
+Fuel Economy (EPA-estimated):
+City: 20-21 mpg (manual), 24-25 mpg (automatic)
+Highway: 27-30 mpg (manual), 32-34 mpg (automatic)
+Combined: 23-24 mpg (manual), 27-28 mpg (automatic)
+Fuel tank capacity: 13.2 gallons
+
+Price: $19,050
+Mileage: 52,837
+
+Toyota GR86
+
+Engine:
+Type: 2.4-liter horizontally opposed 4-cylinder (Boxer)
+Power output: 228 horsepower
+Torque: 184 lb-ft
+Fuel type: Gasoline
+Compression ratio: 12.5:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 6-speed manual or 6-speed automatic with paddle shifters
+Drive type: Rear-wheel drive
+Gear ratios (6-speed manual):
+1st: 3.626
+2nd: 2.188
+3rd: 1.541
+4th: 1.213
+5th: 1.000
+6th: 0.823
+Reverse: 3.545
+
+Fuel Economy (EPA-estimated):
+City: 22-23 mpg (manual), 24-26 mpg (automatic)
+Highway: 29-32 mpg (manual), 32-34 mpg (automatic)
+Combined: 25-27 mpg (manual), 27-29 mpg (automatic)
+Fuel tank capacity: 13.2 gallons
+
+Price: $24,100
+Mileage: 52,837
+
+Ford Mustang
+
+Engine:
+Type: 2.3-liter EcoBoost inline-4
+Power output: 307 horsepower
+Torque: 350 lb-ft
+Fuel type: Gasoline
+Compression ratio: 9.7:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 10-speed automatic
+Drive type: Rear-wheel drive
+Gear ratios (10-speed automatic):
+1st: 4.696
+2nd: 2.985
+3rd: 2.146
+4th: 1.769
+5th: 1.520
+6th: 1.275
+7th: 1.000
+8th: 0.854
+9th: 0.689
+10th: 0.636
+Reverse: 4.866
+
+Fuel Economy (EPA-estimated):
+City: 22 mpg
+Highway: 30 mpg
+Combined: 25 mpg
+Fuel tank capacity: 16 gallons
+
+Price: $27,155
+Mileage: 52,837
+
+Dodge Challenger
+
+Engine:
+Type: 3.6-liter V6 or 6.4-liter V8 (Hemi)
+Power output:
+3.6L V6 Engine: 305 horsepower
+6.4L V8 Engine: 485 horsepower
+Torque:
+3.6L V6 Engine: 268 lb-ft
+6.4L V8 Engine: 475 lb-ft
+Fuel type: Gasoline
+Compression ratio:
+3.6L V6 Engine: 10.2:1
+6.4L V8 Engine: 10.9:1
+Valve configuration: OHV (Overhead Valve)
+Fuel system: Sequential Fuel Injection
+
+Transmission:
+Type: 8-speed automatic or 6-speed manual
+Drive type: Rear-wheel drive
+Gear ratios (8-speed automatic):
+1st: 4.71
+2nd: 3.14
+3rd: 2.11
+4th: 1.67
+5th: 1.29
+6th: 1.00
+7th: 0.84
+8th: 0.67
+Reverse: 3.29
+
+Fuel Economy (EPA-estimated):
+City: 19-21 mpg (V6 engine), 13-15 mpg (V8 engine)
+Highway: 30-31 mpg (V6 engine), 21-23 mpg (V8 engine)
+Combined: 23-25 mpg (V6 engine), 16-18 mpg (V8 engine)
+Fuel tank capacity: 18.5 gallons
+
+Price: $31,295
+Mileage: 52,837
+
+BMW M4
+
+Engine:
+Type: 3.0-liter inline-6 TwinPower Turbo
+Power output: 473 horsepower
+Torque: 406 lb-ft
+Fuel type: Gasoline
+Compression ratio: 10.2:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 7-speed dual-clutch automatic or 6-speed manual
+Drive type: Rear-wheel drive
+Gear ratios (7-speed automatic):
+1st: 4.81
+2nd: 2.59
+3rd: 1.81
+4th: 1.41
+5th: 1.19
+6th: 1.00
+7th: 0.83
+Reverse: 3.64
+
+Fuel Economy (EPA-estimated):
+City: 16-18 mpg
+Highway: 23-25 mpg
+Combined: 19-21 mpg
+Fuel tank capacity: 15.6 gallons
+
+Price: $36,353
+Mileage: 52,837

@@ -1,0 +1,150 @@
+Ford Maverick
+
+Engine:
+Type: 2.0-liter inline-4 hybrid or 2.5-liter inline-4 hybrid
+Power output:
+2.0L Inline-4 Hybrid Engine: 191 horsepower
+2.5L Inline-4 Hybrid Engine: 230 horsepower
+Torque:
+2.0L Inline-4 Hybrid Engine: 155 lb-ft
+2.5L Inline-4 Hybrid Engine: 155 lb-ft
+Fuel type: Gasoline hybrid
+Compression ratio:
+2.0L Inline-4 Hybrid Engine: 13.0:1
+2.5L Inline-4 Hybrid Engine: 14.0:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: Continuously Variable Transmission (CVT)
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: 40-42 mpg (2.0L hybrid engine), 37-39 mpg (2.5L hybrid engine)
+Highway: 33-35 mpg (2.0L hybrid engine), 33-35 mpg (2.5L hybrid engine)
+Combined: 37-39 mpg (2.0L hybrid engine), 35-37 mpg (2.5L hybrid engine)
+Fuel tank capacity: Approximately 13.8 gallons
+
+Price: $27,140
+Mileage: 52,837
+
+Hyundai Santa Cruz
+
+Engine:
+Type: 2.5-liter inline-4 or 2.5-liter turbocharged inline-4
+Power output:
+2.5L Inline-4 Engine: 191 horsepower
+2.5L Turbocharged Inline-4 Engine: 275 horsepower
+Torque:
+2.5L Inline-4 Engine: 181 lb-ft
+2.5L Turbocharged Inline-4 Engine: 311 lb-ft
+Fuel type: Gasoline
+Compression ratio:
+2.5L Inline-4 Engine: 13.0:1
+2.5L Turbocharged Inline-4 Engine: 10.0:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed automatic
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: 22-24 mpg (2.5L engine), 20-22 mpg (2.5L turbocharged engine)
+Highway: 26-28 mpg (2.5L engine), 24-26 mpg (2.5L turbocharged engine)
+Combined: 23-25 mpg (2.5L engine), 21-23 mpg (2.5L turbocharged engine)
+Fuel tank capacity: Approximately 18.8 gallons
+
+Price: $30,452
+Mileage: 52,837
+
+Rivian R1T
+
+Engine:
+Type: Electric
+Power output: 750 horsepower
+Torque: 829 lb-ft
+Battery capacity: 135 kWh
+Electric range: 300+ miles
+Charging time (DC fast charging): 0-80% in 50 minutes
+
+Transmission:
+Type: Single-speed direct-drive
+Drive type: All-wheel drive
+Suspension:
+Front suspension: Independent double wishbone
+Rear suspension: Independent multilink
+
+Cargo Bed:
+Length: 54 inches
+Width: 54 inches
+Depth: 14 inches
+Payload capacity: 1,760 pounds
+
+Off-Road Capability:
+Ground clearance: 14.2 inches
+Approach angle: 34 degrees
+Departure angle: 30 degrees
+Breakover angle: 29 degrees
+Water fording depth: 3 feet
+
+Price: $33,415
+Mileage: 52,837
+
+Honda Ridgeline
+
+Engine:
+Type: 3.5-liter V6
+Power output: 280 horsepower
+Torque: 262 lb-ft
+Fuel type: Gasoline
+Compression ratio: 11.5:1
+Valve configuration: SOHC (Single Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 9-speed automatic
+Drive type: Front-wheel drive or available all-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: 18-19 mpg (front-wheel drive), 18 mpg (all-wheel drive)
+Highway: 24-26 mpg (front-wheel drive), 24 mpg (all-wheel drive)
+Combined: 21-22 mpg (front-wheel drive), 21 mpg (all-wheel drive)
+Fuel tank capacity: Approximately 19.5 gallons
+Payload Capacity: Up to 1,580 pounds
+Towing Capacity: Up to 5,000 pounds
+
+Price: $36,065
+Mileage: 52,837
+
+Chevy Colorado
+
+Engine:
+Type: 2.5-liter inline-4, 3.6-liter V6, or 2.8-liter turbocharged diesel
+Power output:
+2.5L Inline-4 Engine: 200 horsepower
+3.6L V6 Engine: 308 horsepower
+2.8L Turbocharged Diesel Engine: 181 horsepower
+Torque:
+2.5L Inline-4 Engine: 191 lb-ft
+3.6L V6 Engine: 275 lb-ft
+2.8L Turbocharged Diesel Engine: 369 lb-ft
+Fuel type: Gasoline (for the inline-4 and V6 engines) or Diesel (for the turbocharged diesel engine)
+Compression ratio: Varies based on engine type
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection (gasoline engines) or Common Rail Direct Injection (diesel engine)
+
+Transmission:
+Type: 6-speed automatic or 8-speed automatic
+Drive type: Rear-wheel drive or available four-wheel drive
+
+Fuel Economy (EPA-estimated):
+City: Varies based on engine type and drivetrain configuration
+Highway: Varies based on engine type and drivetrain configuration
+Combined: Varies based on engine type and drivetrain configuration
+Fuel tank capacity: Varies based on truck bed size and configuration
+Payload Capacity: Up to 1,550 pounds (varies based on truck bed size and configuration)
+Towing Capacity: Up to 7,700 pounds (varies based on engine, drivetrain, and optional towing package)
+
+Price: $40,432
+Mileage: 52,837

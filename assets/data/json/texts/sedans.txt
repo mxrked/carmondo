@@ -1,0 +1,178 @@
+Hyundai Accent
+
+Engine:
+Type: 1.6-liter inline-4
+Power output: 130 horsepower
+Torque: 119 lb-ft
+Fuel type: Gasoline
+Compression ratio: 11.0:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 6-speed automatic
+Drive type: Front-wheel drive
+Gear ratios:
+1st: 4.400
+2nd: 2.726
+3rd: 1.834
+4th: 1.392
+5th: 1.000
+6th: 0.774
+Reverse: 3.440
+
+Fuel Economy (EPA-estimated):
+City: 28 mpg
+Highway: 38 mpg
+Combined: 32 mpg
+Fuel tank capacity: 11.9 gallons
+
+Price: $16,500
+Mileage: 52,837
+
+Kia Rio
+
+Engine:
+
+Type: 1.6-liter inline-4
+Power output: 120 horsepower
+Torque: 112 lb-ft
+Fuel type: Gasoline
+Compression ratio: 11.2:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Gasoline Direct Injection (GDI)
+
+Transmission:
+Type: 6-speed automatic
+Drive type: Front-wheel drive
+Gear ratios:
+1st: 4.400
+2nd: 2.726
+3rd: 1.834
+4th: 1.392
+5th: 1.000
+6th: 0.774
+Reverse: 3.440
+
+Fuel Economy (EPA-estimated):
+City: 33 mpg
+Highway: 41 mpg
+Combined: 36 mpg
+Fuel tank capacity: 11.9 gallons
+
+Price: $17,260
+Mileage: 52,837
+
+Honda Civic
+
+Engine:
+Type: 2.0-liter inline-4 or 1.5-liter turbocharged inline-4
+Power output:
+2.0L Engine: 158 horsepower
+1.5L Turbocharged Engine: 174 horsepower (standard) or 180 horsepower (Sport/Sport Touring trims)
+Torque:
+2.0L Engine: 138 lb-ft
+1.5L Turbocharged Engine: 162 lb-ft (standard) or 177 lb-ft (Sport/Sport Touring trims)
+Fuel type: Gasoline
+Compression ratio:
+2.0L Engine: 10.8:1
+1.5L Turbocharged Engine: 10.6:1
+Valve configuration: SOHC (Single Overhead Camshaft) or DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Fuel Injection (DFI)
+
+Transmission:
+Type: Continuously Variable Transmission (CVT) or 6-speed manual (available on certain trims)
+Drive type: Front-wheel drive
+Gear ratios (CVT):
+1st: 2.526
+2nd: 1.612
+3rd: 1.044
+4th: 0.757
+5th: 0.591
+6th: 0.480
+Reverse: 1.838
+
+Fuel Economy (EPA-estimated):
+City: 30-32 mpg (2.0L engine), 31-32 mpg (1.5L turbocharged engine)
+Highway: 38-42 mpg (2.0L engine), 38-42 mpg (1.5L turbocharged engine)
+Combined: 33-36 mpg (2.0L engine), 35-36 mpg (1.5L turbocharged engine)
+Fuel tank capacity: 12.4 gallons
+
+Price: $20,100
+Mileage: 52,837
+
+Mazda 3
+
+Engine:
+Type: 2.0-liter or 2.5-liter inline-4
+Power output:
+2.0L Engine: 155 horsepower
+2.5L Engine: 186 horsepower
+Torque:
+2.0L Engine: 150 lb-ft
+2.5L Engine: 186 lb-ft
+Fuel type: Gasoline
+Compression ratio: 13.0:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 6-speed automatic or 6-speed manual (available on certain trims)
+Drive type: Front-wheel drive (All-wheel drive available on certain trims)
+Gear ratios (6-speed automatic):
+1st: 3.552
+2nd: 2.022
+3rd: 1.452
+4th: 1.000
+5th: 0.708
+6th: 0.599
+Reverse: 3.893
+
+Fuel Economy (EPA-estimated):
+City: 25-28 mpg (2.0L engine), 25-27 mpg (2.5L engine)
+Highway: 33-36 mpg (2.0L engine), 33-36 mpg (2.5L engine)
+Combined: 28-30 mpg (2.0L engine), 29-31 mpg (2.5L engine)
+Fuel tank capacity: 13.2 gallons
+
+Price: $23,450
+Mileage: 52,837
+
+BMW 3-Series
+
+Engine:
+Type: 2.0-liter inline-4 or 3.0-liter inline-6
+Power output:
+2.0L Engine: 255 horsepower
+3.0L Engine: 382 horsepower
+Torque:
+2.0L Engine: 294 lb-ft
+3.0L Engine: 369 lb-ft
+Fuel type: Gasoline
+Compression ratio:
+2.0L Engine: 10.2:1
+3.0L Engine: 10.2:1
+Valve configuration: DOHC (Dual Overhead Camshaft)
+Fuel system: Direct Injection
+
+Transmission:
+Type: 8-speed automatic or 6-speed manual (available on certain trims)
+Drive type: Rear-wheel drive (All-wheel drive available on certain trims)
+Gear ratios (8-speed automatic):
+1st: 5.250
+2nd: 3.360
+3rd: 2.130
+4th: 1.720
+5th: 1.310
+6th: 1.000
+7th: 0.820
+8th: 0.640
+Reverse: 3.710
+
+Fuel Economy (EPA-estimated):
+City: 25-27 mpg (2.0L engine), 22-24 mpg (3.0L engine)
+Highway: 34-36 mpg (2.0L engine), 30-32 mpg (3.0L engine)
+Combined: 28-30 mpg (2.0L engine), 25-27 mpg (3.0L engine)
+Fuel tank capacity: 15.6 gallons
+
+Price: $27,210
+Mileage: 52,837

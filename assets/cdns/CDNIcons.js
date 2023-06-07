@@ -11,4 +11,7 @@ const FAVICON_32 = CDNIconReturn("tab-icons", "favicon-32x32", "png");
 const FAVICON_16 = CDNIconReturn("tab-icons", "favicon-16x16", "png");
 const ATI = CDNIconReturn("tab-icons", "apple-touch-icon", "png");
 
+const LOGO = CDNIconReturn("logos", "combo", "webp");
+
 export { FAVICON, FAVICON_16, FAVICON_32, ATI };
+export { LOGO };

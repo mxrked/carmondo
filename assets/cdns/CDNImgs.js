@@ -6,4 +6,6 @@
 
 import { CDNImgReturn } from "./CDNReturns";
 
-export {};
+const IMG_PLACEHOLDER = CDNImgReturn("placeholders", "placeholder", "png");
+
+export { IMG_PLACEHOLDER };

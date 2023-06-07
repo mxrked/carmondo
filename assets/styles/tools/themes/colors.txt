@@ -1,0 +1,8 @@
+$Shark: #1E2022;
+$ShuttleGray: #52616B;
+$Geyser: #C9D6DF;
+$BlackSqueeze: #F0F5F9;
+$EbonyClay: #222831;
+$BrightGray: #393E46;
+$BondiBlue: #00ADB5;
+$Gallery: #EEEEEE;

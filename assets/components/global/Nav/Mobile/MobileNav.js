@@ -16,6 +16,8 @@ import {
 
 import { LOGO } from "@/assets/cdns/CDNIcons";
 
+import ToggleMobileNav from "@/assets/functions/dom/togglers/ToggleMobileNav";
+
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
 export const MobileNav = () => {
@@ -102,7 +104,12 @@ export const MobileNav = () => {
                 className={`${styles.mobile_nav_main_inner_side} ${styles.mobile_nav_R} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
               >
                 <div className={`${styles.mobile_nav_main_inner_side_cnt}`}>
-                  <button id="mobileNavMenuToggler">
+                  <button
+                    id="mobileNavMenuToggler"
+                    onClick={() => {
+                      ToggleMobileNav();
+                    }}
+                  >
                     <span className="half-second" />
                     <span className="half-second" />
                     <span className="half-second" />

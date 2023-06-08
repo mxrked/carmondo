@@ -81,11 +81,34 @@ export const MobileNav = () => {
           >
             <div className={`${styles.mobile_nav_main_inner_row} row`}>
               <div
-                className={`${styles.mobile_nav_main_inner_side} ${styles.mobile_nav_L} col-lg-7 col-md-7 col-sm-7 col-xs-7`}
-              ></div>
+                className={`${styles.mobile_nav_main_inner_side} ${styles.mobile_nav_L} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
+              >
+                <div className={`${styles.mobile_nav_main_inner_side_cnt}`}>
+                  <a
+                    href="/"
+                    className={`${styles.logo} index-link half-second`}
+                  >
+                    <img
+                      data-src={LOGO}
+                      className="lazyload"
+                      alt="Logo of Carmondo"
+                    />
+
+                    <span>carmondo</span>
+                  </a>
+                </div>
+              </div>
               <div
-                className={`${styles.mobile_nav_main_inner_side} ${styles.mobile_nav_R} col-lg-5 col-md-5 col-sm-5 col-xs-5`}
-              ></div>
+                className={`${styles.mobile_nav_main_inner_side} ${styles.mobile_nav_R} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
+              >
+                <div className={`${styles.mobile_nav_main_inner_side_cnt}`}>
+                  <button id="mobileNavMenuToggler">
+                    <span className="half-second" />
+                    <span className="half-second" />
+                    <span className="half-second" />
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

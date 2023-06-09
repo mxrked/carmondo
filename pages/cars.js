@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 
 // Data/Functions/Images Imports
 import ManipPageLink from "@/assets/functions/dom/manip/ManipPageLinks";
+import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
@@ -22,6 +23,11 @@ export default function Cars() {
   // Disabling Page Links
   useEffect(() => {
     ManipPageLink("disable", "multiple", ".cars-link");
+  }, []);
+
+  // Triggering exit animations
+  useEffect(() => {
+    TriggerExitAnimations();
   }, []);
 
   return (

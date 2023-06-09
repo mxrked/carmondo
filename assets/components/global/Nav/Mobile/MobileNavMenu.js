@@ -4,6 +4,8 @@
  *
  */
 
+import { useState } from "react";
+
 import { FaCaretDown, FaTimes } from "react-icons/fa";
 
 import { LOGO } from "@/assets/cdns/CDNIcons";
@@ -13,6 +15,25 @@ import CloseMobileNav from "@/assets/functions/dom/closers/CloseMobileNav";
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
 export const MobileNavMenu = () => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleChange = (e) => {
+    /**
+     *  This is used to display the dropdown when the user clicks the input
+     */
+
+    setIsChecked(e.target.checked);
+
+    if (e.target.checked) {
+      document.getElementById("carsLinks").style.height = "275px";
+      document.getElementById("mobileNavMenuCBIcon").style.transform =
+        "rotate(180deg)";
+    } else {
+      document.getElementById("carsLinks").style.height = 0;
+      document.getElementById("mobileNavMenuCBIcon").style.transform =
+        "rotate(0deg)";
+    }
+  };
   return (
     <div id="mobileNavMenu" className={`${styles.mobile_nav_menu}`}>
       <div
@@ -54,7 +75,7 @@ export const MobileNavMenu = () => {
           </div>
 
           <div className={`${styles.mobile_nav_menu_main_cnt_links}`}>
-            <ul>
+            <ul className={`${styles.main_links}`}>
               <li>
                 <a href="/" className="nav-link index-link half-second">
                   <span>Home</span>
@@ -65,15 +86,23 @@ export const MobileNavMenu = () => {
                   <span>About Us</span>
                 </a>
               </li>
-              <li className="cars-link half-second">
-                <input type="checkbox" />
+              <li className={`${styles.dd_link} cars-link half-second`}>
+                <input
+                  id="mobileNavMenuCB"
+                  type="checkbox"
+                  checked={isChecked}
+                  onChange={handleChange}
+                />
 
                 <span>Our Cars</span>
 
-                <FaCaretDown className={`${styles.icon}`} />
+                <FaCaretDown
+                  id="mobileNavMenuCBIcon"
+                  className={`${styles.icon}`}
+                />
               </li>
 
-              <ul id="carsLinks">
+              <ul id="carsLinks" className="half-second">
                 <li>
                   <a href="/cars" className="nav-link cars-link half-second">
                     <span>All Cars</span>

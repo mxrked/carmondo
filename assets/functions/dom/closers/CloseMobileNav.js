@@ -4,6 +4,7 @@
  *
  */
 
+import { Html } from "next/document";
 import RemoveStorageVariable from "../../data/storage/RemoveStorageVariable";
 
 export default function CloseMobileNav() {
@@ -18,6 +19,11 @@ export default function CloseMobileNav() {
   MAIN_CNT.style.opacity = 0;
   MAIN_CNT.style.visibility = "hidden";
 
+  document.getElementById("mobileNavMenuCB").checked = false;
+  document.getElementById("carsLinks").style.height = 0;
+  document.getElementById("mobileNavMenuCBIcon").style.transform =
+    "rotate(0deg)";
+
   setTimeout(() => {
     MAIN.style.transform = "translateX(100%)";
   }, 900);
@@ -30,6 +36,10 @@ export default function CloseMobileNav() {
   setTimeout(() => {
     document.body.style.pointerEvents = "auto";
     document.body.style.overflowY = "auto";
+
+    // Enables html pointerEvents and overflowY
+    document.documentElement.style.pointerEvents = "auto";
+    document.documentElement.style.overflowY = "auto";
 
     RemoveStorageVariable("session", "Mobile Nav Opened");
   }, 2400);

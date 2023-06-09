@@ -120,6 +120,15 @@ export const MobileNavMenu = () => {
                   </a>
                 </li>
               </ul>
+
+              <li>
+                <a
+                  href="/contact"
+                  className="nav-link contact-link half-second"
+                >
+                  <span>Contact Us</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

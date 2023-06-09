@@ -167,6 +167,10 @@ function MyApp({ Component, pageProps }) {
         page.style.opacity = 1;
         page.style.visibility = "visible";
       });
+
+      // Enabling scrolling after some time
+      document.documentElement.style.overflowY = "auto";
+      document.documentElement.style.pointerEvents = "auto";
     }, 500);
   }, [router]);
 

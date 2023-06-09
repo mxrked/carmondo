@@ -6,7 +6,7 @@
 
 import DeclareStorageVariable from "../../data/storage/DeclareStorageVariable";
 import RemoveStorageVariable from "../../data/storage/RemoveStorageVariable";
-// import CloseMobileNav from "../closers/CloseMobileNav";
+import CloseMobileNav from "../closers/CloseMobileNav";
 
 function TriggerExitAnimations() {
   document.querySelectorAll("a").forEach((link) => {
@@ -52,7 +52,7 @@ function TriggerExitAnimations() {
         DeclareStorageVariable("session", "HREF", link.href);
 
         // Closing the mobile nav and search
-        // CloseMobileNav();
+        CloseMobileNav();
 
         // Disabling pointer events and scrolling
         setTimeout(() => {
@@ -80,7 +80,7 @@ function TriggerExitAnimations() {
         setTimeout(() => {
           window.location.href = sessionStorage.getItem("HREF");
           RemoveStorageVariable("session", "EA Fix");
-        }, 2400);
+        }, 2340);
       });
     }
   });

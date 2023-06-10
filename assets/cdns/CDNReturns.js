@@ -12,7 +12,7 @@ function CDNBGReturn(bgSub, bgSubFile, fileExt) {
   if (bgSub) {
     if (bgSubFile) {
       if (fileExt) {
-        bgSrc = SERVER + "bg/" + bgSub + "/" + bgSubFile + "." + fileExt;
+        bgSrc = SERVER + "bgs/" + bgSub + "/" + bgSubFile + "." + fileExt;
       }
     }
   }

@@ -10,6 +10,9 @@ export default function CheckMobileNavMenuStatus() {
     if (sessionStorage.getItem("FM Loaded")) {
       document.body.style.overflowY = "auto";
       document.body.style.pointerEvents = "auto";
+
+      document.documentElement.style.overflowY = "auto";
+      document.documentElement.style.pointerEvents = "auto";
     }
   }
 
@@ -20,6 +23,9 @@ export default function CheckMobileNavMenuStatus() {
       if (sessionStorage.getItem("FM Loaded")) {
         document.body.style.overflowY = "hidden";
         document.body.style.pointerEvents = "none";
+
+        document.documentElement.style.overflowY = "hidden";
+        document.documentElement.style.pointerEvents = "none";
       }
     }
 
@@ -28,6 +34,9 @@ export default function CheckMobileNavMenuStatus() {
       if (sessionStorage.getItem("FM Loaded")) {
         document.body.style.overflowY = "auto";
         document.body.style.pointerEvents = "auto";
+
+        document.documentElement.style.overflowY = "auto";
+        document.documentElement.style.pointerEvents = "auto";
       }
     }
   }

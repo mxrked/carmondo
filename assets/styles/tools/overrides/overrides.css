@@ -1,3 +1,96 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+.overrides_IndexTop .slick-slider {
+  position: relative;
+}
+.overrides_IndexTop .slick-slider .slide-cnt {
+  transition: 0.5s ease-in-out !important;
+}
+.overrides_IndexTop .slick-slider .fade-out {
+  opacity: 0;
+}
+.overrides_IndexTop .slick-slider .fade-in {
+  opacity: 1;
+}
+.overrides_IndexTop .slick-slider .slick-list .slick-track .slick-slide .bg {
+  transition: 0.5s ease-in-out;
+  scale: 1;
+}
+.overrides_IndexTop .slick-slider .slick-list .slick-track .slick-active .bg {
+  scale: 1.15;
+}
+.overrides_IndexTop .slick-slider .slick-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  right: 0;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.overrides_IndexTop .slick-slider .slick-dots li {
+  margin: 15px;
+}
+.overrides_IndexTop .slick-slider .slick-dots li button::before {
+  font-size: 34px;
+  color: white;
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+.overrides_IndexTop .slick-slider .slick-dots li button:hover::before {
+  color: rgb(148, 148, 148);
+}
+.overrides_IndexTop .slick-slider .slick-dots .slick-active button::before {
+  color: #00adb5;
+}
+.overrides_IndexTop .slick-slider .slick-dots .slick-active button:hover::before {
+  color: #2be7f1;
+}
+.overrides_IndexTop .slick-slider .slick-prev {
+  left: 0% !important;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  max-width: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: translate(0, 0);
+  transition: 0.5s ease-in-out;
+}
+.overrides_IndexTop .slick-slider .slick-prev:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.overrides_IndexTop .slick-slider .slick-prev::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f060";
+  font-weight: 900;
+}
+.overrides_IndexTop .slick-slider .slick-disabled {
+  pointer-events: none !important;
+}
+.overrides_IndexTop .slick-slider .slick-next {
+  right: 0% !important;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  max-width: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: translate(0, 0);
+  transition: 0.5s ease-in-out;
+}
+.overrides_IndexTop .slick-slider .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.overrides_IndexTop .slick-slider .slick-next::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f061";
+  font-weight: 900;
+}
+
 @media all and (max-width: 1995px) {
   .fade-left-fix {
     transform: translateX(0) !important;

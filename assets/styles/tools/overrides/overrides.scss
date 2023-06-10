@@ -1,4 +1,137 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
 // Desktop
+.overrides_IndexTop {
+  .slick-slider {
+    position: relative;
+
+    .slide-cnt {
+      transition: 0.5s ease-in-out !important;
+    }
+
+    .fade-out {
+      opacity: 0;
+      // transform: translateX(-30px);
+    }
+
+    .fade-in {
+      opacity: 1;
+      // transform: translateX(0);
+    }
+
+    .slick-list {
+      .slick-track {
+        .slick-slide {
+          .bg {
+            transition: 0.5s ease-in-out;
+            scale: 1;
+          }
+        }
+
+        .slick-active {
+          .bg {
+            scale: 1.15;
+          }
+        }
+      }
+    }
+
+    .slick-dots {
+      position: absolute;
+      width: 100%;
+      bottom: 0px;
+      right: 0;
+      max-width: 250px;
+      margin-left: auto;
+      margin-right: 140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+
+      li {
+        margin: 15px;
+
+        button {
+          &::before {
+            font-size: 34px;
+            color: white;
+            opacity: 1;
+            transition: 0.5s ease-in-out;
+          }
+
+          &:hover {
+            &::before {
+              color: rgb(148, 148, 148);
+            }
+          }
+        }
+      }
+
+      .slick-active {
+        button {
+          &::before {
+            color: #00adb5;
+          }
+
+          &:hover {
+            &::before {
+              color: #2be7f1;
+            }
+          }
+        }
+      }
+    }
+
+    .slick-prev {
+      left: 0% !important;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      max-width: 100px;
+      background-color: rgba(0, 0, 0, 0.3);
+      transform: translate(0, 0);
+      transition: 0.5s ease-in-out;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f060";
+        font-weight: 900;
+      }
+    }
+
+    .slick-disabled {
+      pointer-events: none !important;
+    }
+
+    .slick-next {
+      right: 0% !important;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      max-width: 100px;
+      background-color: rgba(0, 0, 0, 0.3);
+      transform: translate(0, 0);
+      transition: 0.5s ease-in-out;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f061";
+        font-weight: 900;
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {

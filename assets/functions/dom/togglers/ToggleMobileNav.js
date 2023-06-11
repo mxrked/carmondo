@@ -14,8 +14,8 @@ export default function ToggleMobileNav() {
   document.body.style.overflowY = "hidden";
   document.body.style.pointerEvents = "none";
   // Disabling html pointerEvents and overflowY
-  document.documentElement.style.pointerEvents = "none";
-  document.documentElement.style.overflowY = "hidden";
+  // document.documentElement.style.pointerEvents = "none";
+  // document.documentElement.style.overflowY = "hidden";
 
   DeclareStorageVariable("session", "Mobile Nav Opened", true);
 

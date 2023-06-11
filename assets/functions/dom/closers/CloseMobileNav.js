@@ -38,8 +38,8 @@ export default function CloseMobileNav() {
     document.body.style.overflowY = "auto";
 
     // Enables html pointerEvents and overflowY
-    document.documentElement.style.pointerEvents = "auto";
-    document.documentElement.style.overflowY = "auto";
+    // document.documentElement.style.pointerEvents = "auto";
+    // document.documentElement.style.overflowY = "auto";
 
     RemoveStorageVariable("session", "Mobile Nav Opened");
   }, 2400);

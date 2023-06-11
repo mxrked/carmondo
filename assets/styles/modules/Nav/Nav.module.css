@@ -23,8 +23,8 @@
   src: url("../../../fonts/Regular.ttf");
 }
 .desktop_nav {
-  height: 500px;
-  position: absolute;
+  height: auto;
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;

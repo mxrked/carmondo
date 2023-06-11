@@ -172,8 +172,8 @@ function MyApp({ Component, pageProps }) {
       });
 
       // Enabling scrolling after some time
-      document.documentElement.style.overflowY = "auto";
-      document.documentElement.style.pointerEvents = "auto";
+      // document.documentElement.style.overflowY = "auto";
+      // document.documentElement.style.pointerEvents = "auto";
     }, 500);
   }, [router]);
 

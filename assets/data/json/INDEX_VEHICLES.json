@@ -1,0 +1,57 @@
+[
+  {
+    "vehicleID": "V_COUPE_01",
+    "vehicleName": "Subaru BRZ",
+    "vehicleType": "coupe",
+    "vehicleEngine": "4C Boxer",
+    "vehicleTransmission": "6SM/6SA",
+    "vehicleFuelEconomy": "20-21 city/27-30 hwy",
+    "vehiclePrice": "$19,050",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/coupes/subaru-brz.webp"
+  },
+  {
+    "vehicleID": "V_PICKUP_01",
+    "vehicleName": "Ford Maverick",
+    "vehicleType": "pickup",
+    "vehicleEngine": "2.0 I4H/2.5 I4H",
+    "vehicleTransmission": "CVT",
+    "vehicleFuelEconomy": "40-42 city/33-35 hwy",
+    "vehiclePrice": "$27,140",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/pickup-trucks/ford-maverick.webp"
+  },
+  {
+    "vehicleID": "V_SEDAN_01",
+    "vehicleName": "Hyundai Accent",
+    "vehicleType": "sedan",
+    "vehicleEngine": "1.6 I4",
+    "vehicleTransmission": "6SA",
+    "vehicleFuelEconomy": "28 city/38 hwy",
+    "vehiclePrice": "$16,500",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/sedans/hyundai-accent.webp"
+  },
+  {
+    "vehicleID": "V_SUV_01",
+    "vehicleName": "Toyota RAV4",
+    "vehicleType": "suv",
+    "vehicleEngine": "2.5 I4",
+    "vehicleTransmission": "8SA",
+    "vehicleFuelEconomy": "26-28 city/34-35 hwy",
+    "vehiclePrice": "$26,325",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/suvs/toyota-rav4.webp"
+  },
+  {
+    "vehicleID": "V_WAGON_01",
+    "vehicleName": "Subaru Outback",
+    "vehicleType": "wagon",
+    "vehicleEngine": "Boxer",
+    "vehicleTransmission": "CVT",
+    "vehicleFuelEconomy": "Varies",
+    "vehiclePrice": "$26,015",
+    "vehicleMileage": "52,837",
+    "vehicleImg": "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/imgs/wagons/subaru-outback.webp"
+  }
+]

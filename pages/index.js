@@ -16,6 +16,7 @@ import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
 
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
+import { IndexUnderTop } from "@/assets/components/pages/Index/IndexUnderTop";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -38,12 +39,13 @@ export default function Home() {
       <PageHead />
 
       <MobileNavMenu />
+      <DesktopNav />
 
       <main id="PAGE_CNT">
-        <DesktopNav />
         <MobileNav />
 
         <IndexTop />
+        <IndexUnderTop />
 
         {/** <TestBox /> */}
       </main>

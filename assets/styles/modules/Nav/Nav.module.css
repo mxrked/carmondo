@@ -28,6 +28,7 @@
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 200;
 }
 .desktop_nav .desktop_nav_top {
   background-color: #e3e3e3;
@@ -892,6 +893,7 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .desktop_nav {
     display: block;
+    height: auto;
   }
   .mobile_nav,
   .mobile_nav_menu {
@@ -901,6 +903,7 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .desktop_nav {
     display: block;
+    height: auto;
   }
   .mobile_nav,
   .mobile_nav_menu {
@@ -910,6 +913,7 @@
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .desktop_nav {
     display: block;
+    height: auto;
   }
   .mobile_nav,
   .mobile_nav_menu {

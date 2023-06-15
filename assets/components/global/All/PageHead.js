@@ -14,9 +14,16 @@ import {
   CARS_KWS,
   CONTACT_KWS,
 } from "@/assets/data/variables/ARRAYS";
+import { useEffect } from "react";
 
 export const PageHead = () => {
   const router = useRouter();
+
+  let desc;
+  let kws;
+  let title;
+  let robots;
+  let url;
 
   //! Descriptions
   const INDEX_DESC =
@@ -29,12 +36,6 @@ export const PageHead = () => {
     "Carmondo hosts a large array of different vehicles. From  sedans, suvs, coupes, pickups and wagons; there will always be a vehicle for you!";
 
   const DESCS = [INDEX_DESC, INFO_DESC, CONTACT_DESC, CARS_DESC];
-
-  let desc;
-  let kws;
-  let title;
-  let robots;
-  let url;
 
   // Index Page
   if (router.pathname == "/") {
@@ -80,7 +81,7 @@ export const PageHead = () => {
     kws = CONTACT_KWS;
   }
 
-  // Projects Page
+  // Cars Page
   if (router.pathname == "/cars") {
     title = "carmondo - Our Cars";
     robots = "index, follow";

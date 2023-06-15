@@ -1,12 +1,14 @@
 // React/Next Imports
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 // Library Imports
 
 // Data/Functions/Images Imports
 import ManipPageLink from "@/assets/functions/dom/manip/ManipPageLinks";
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
+import { CARS_KWS } from "@/assets/data/variables/ARRAYS";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
@@ -104,7 +106,50 @@ export default function Vehicle({ VEHICLE }) {
 
   return (
     <div id="PAGE" className="page overrides_Vehicle full-second">
-      <PageHead />
+      <Head>
+        <title>carmondo - {VEHICLE.vehicleName}</title>
+        <meta name="keywords" content={CARS_KWS} />
+        <meta
+          name="description"
+          content="Carmondo hosts a large array of different vehicles. From  sedans, suvs, coupes, pickups and wagons; there will always be a vehicle for you!"
+        />
+        <meta name="robots" content="index, follow" />
+
+        <meta
+          property="og:title"
+          content={`carmondo - ${VEHICLE.vehicleName}`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:url" content={router.pathname} />
+        <meta
+          name="google-site-verification"
+          content="V5Rtva_ZUQGbD75j-mxlBzvediiQnPt2hEi7YaPPAEE"
+        />
+
+        <link rel="canonical" href={router.pathname} />
+        <link
+          rel="shortcut icon"
+          href="https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/icons/tab-icons/favicon.ico"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/icons/tab-icons/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/icons/tab-icons/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/icons/tab-icons/favicon-16x16.png"
+        />
+      </Head>
 
       <MobileNavMenu />
       <DesktopNav />
@@ -113,7 +158,15 @@ export default function Vehicle({ VEHICLE }) {
         <MobileNav />
 
         <div>
+          <h1>{VEHICLE.vehicleID}</h1>
+          <img data-src={VEHICLE.vehicleImg} className="lazyload" />
           <h1>{VEHICLE.vehicleName}</h1>
+          <h1>{VEHICLE.vehicleType}</h1>
+          <h1>{VEHICLE.vehicleEngine}</h1>
+          <h1>{VEHICLE.vehicleTransmission}</h1>
+          <h1>{VEHICLE.vehicleFuelEconomy}</h1>
+          <h1>{VEHICLE.vehiclePrice}</h1>
+          <h1>{VEHICLE.vehicleMileage}</h1>
         </div>
 
         {/** <TestBox /> */}

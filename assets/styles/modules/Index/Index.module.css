@@ -231,6 +231,116 @@
   background-color: #1c8cbc;
 }
 
+.index_browse {
+  margin-top: 270px;
+  margin-bottom: 350px;
+}
+.index_browse .index_browse_inner {
+  max-width: 1740px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.index_browse .index_browse_inner .index_browse_inner_top {
+  text-align: center;
+}
+.index_browse .index_browse_inner .index_browse_inner_top h1 {
+  font-family: "NS Extra Bold";
+  color: #222831;
+  font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index_browse .index_browse_inner .index_browse_inner_top a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  font-family: "NS Semi Bold";
+  color: #eeeeee;
+  font-size: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+  background-color: #00adb5;
+  border-radius: 2px;
+  text-decoration: none;
+  max-width: 190px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index_browse .index_browse_inner .index_browse_inner_top a:hover {
+  background-color: #1c8cbc;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 80px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+  height: 750px;
+  overflow: hidden;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+  max-width: 450px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.028);
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+  background-color: rgba(240, 240, 247, 0.3803921569);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+  max-width: 250px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+  height: 450px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+  font-family: "NS Bold";
+  font-size: 26px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+  text-transform: uppercase;
+  font-family: "NS Semi Bold";
+  font-size: 19px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+  height: 380px;
+  padding: 0;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side .engine_set,
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side .transmission_set {
+  display: block;
+  text-align: left;
+  height: 86px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side .engine_set strong,
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side .transmission_set strong {
+  display: block;
+  font-family: "NS Semi Bold";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side .engine_set span,
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side .transmission_set span {
+  font-family: "NS Medium";
+  font-size: 14px;
+  opacity: 0.7;
+}
+
 @media all and (max-width: 1995px) {
   .index_top .index_top_slide .index_top_slide_overlay,
   .index_top .index_top_slide .dummy_overlay {

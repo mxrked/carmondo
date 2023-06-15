@@ -248,6 +248,125 @@
     }
   }
 }
+.index_browse {
+  margin-top: 270px;
+  margin-bottom: 350px;
+
+  .index_browse_inner {
+    max-width: 1740px;
+    @include quickCenter("relative");
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    .index_browse_inner_top {
+      text-align: center;
+
+      h1 {
+        font-family: "NS Extra Bold";
+        color: $EbonyClay;
+        font-size: $SubHeading;
+        margin-bottom: 30px;
+        @include quickCenter("relative");
+      }
+
+      a {
+        @include displayElement(flex, center, center);
+        height: 45px;
+        font-family: "NS Semi Bold";
+        color: $Gallery;
+        font-size: $Link;
+        background-color: $BondiBlue;
+        border-radius: 2px;
+        text-decoration: none;
+        max-width: 190px;
+        @include quickCenter("relative");
+
+        &:hover {
+          background-color: $EasternBlue;
+        }
+      }
+    }
+
+    .index_browse_inner_slider_holder {
+      max-width: 1600px;
+      @include quickCenter("relative");
+      width: 100%;
+      margin-top: 80px;
+
+      .slider_slide {
+        height: 750px;
+        overflow: hidden;
+
+        .slider_slide_inner {
+          max-width: 450px;
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.028);
+
+          .slider_slide_inner_img {
+            background-color: #f0f0f761;
+            @include displayElement(flex, center, center);
+            height: 300px;
+
+            img {
+              max-width: 250px;
+            }
+          }
+
+          .slider_slide_inner_details {
+            height: 450px;
+            padding-left: 25px;
+            padding-right: 25px;
+
+            .name_and_type {
+              height: 70px;
+              @include displayElement(flex, space-between, center);
+
+              .name {
+                font-family: "NS Bold";
+                font-size: 26px;
+              }
+
+              .type {
+                text-transform: uppercase;
+                font-family: "NS Semi Bold";
+                font-size: 19px;
+              }
+            }
+
+            .details_inner_box {
+              .details_inner_row {
+                .details_inner_side {
+                  height: 380px;
+                  padding: 0;
+
+                  .engine_set,
+                  .transmission_set {
+                    display: block;
+                    text-align: left;
+                    height: 86px;
+
+                    strong {
+                      display: block;
+                      font-family: "NS Semi Bold";
+                      font-size: 20px;
+                      margin-bottom: 10px;
+                    }
+
+                    span {
+                      font-family: "NS Medium";
+                      font-size: 14px;
+                      opacity: 0.7;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {

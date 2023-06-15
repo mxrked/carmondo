@@ -300,7 +300,8 @@
 
         .slider_slide_inner {
           max-width: 450px;
-          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.028);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.084);
+          border-radius: 10px;
 
           .slider_slide_inner_img {
             background-color: #f0f0f761;
@@ -313,7 +314,8 @@
           }
 
           .slider_slide_inner_details {
-            height: 450px;
+            height: 320px;
+            padding-top: 15px;
             padding-left: 25px;
             padding-right: 25px;
 
@@ -324,6 +326,12 @@
               .name {
                 font-family: "NS Bold";
                 font-size: 26px;
+                color: $BondiBlue;
+                text-decoration: none;
+
+                &:hover {
+                  color: $EasternBlue;
+                }
               }
 
               .type {
@@ -336,26 +344,101 @@
             .details_inner_box {
               .details_inner_row {
                 .details_inner_side {
-                  height: 380px;
+                  height: 320px;
                   padding: 0;
+                }
 
-                  .engine_set,
-                  .transmission_set {
-                    display: block;
-                    text-align: left;
-                    height: 86px;
-
-                    strong {
+                .details_L {
+                  .details_inner_side_cnt {
+                    .engine_set,
+                    .transmission_set,
+                    .fuel_eco_set {
                       display: block;
-                      font-family: "NS Semi Bold";
-                      font-size: 20px;
-                      margin-bottom: 10px;
+                      text-align: left;
+                      height: 76px;
+
+                      strong {
+                        display: block;
+                        font-family: "NS Semi Bold";
+                        font-size: 18px;
+                        margin-bottom: 3px;
+                      }
+
+                      span {
+                        font-family: "NS Medium";
+                        font-size: 14px;
+                        opacity: 0.7;
+                      }
+                    }
+                  }
+                }
+
+                .details_R {
+                  display: flex;
+                  justify-content: flex-end;
+
+                  .details_inner_side_cnt {
+                    .price_set,
+                    .mileage_set {
+                      text-align: right;
+                      display: block;
+                      height: 76px;
+
+                      strong {
+                        display: block;
+                        font-family: "NS Semi Bold";
+                        font-size: 18px;
+                        margin-bottom: 3px;
+                      }
+
+                      span {
+                        font-family: "NS Medium";
+                        font-size: 14px;
+                        opacity: 0.7;
+                      }
                     }
 
-                    span {
-                      font-family: "NS Medium";
-                      font-size: 14px;
-                      opacity: 0.7;
+                    .links {
+                      @include displayElement(flex, space-between, center);
+                      width: 180px;
+
+                      .buy {
+                        @include displayElement(flex, center, center);
+                        height: 40px;
+                        font-family: "NS Semi Bold";
+                        color: $Gallery;
+                        font-size: 17px;
+                        background-color: $BondiBlue;
+                        border-radius: 2px;
+                        text-decoration: none;
+                        width: 70px;
+                        @include quickCenter("relative");
+                        margin-right: 0;
+                        margin-bottom: 15px;
+
+                        &:hover {
+                          background-color: $EasternBlue;
+                        }
+                      }
+
+                      .trade {
+                        @include displayElement(flex, center, center);
+                        height: 40px;
+                        font-family: "NS Semi Bold";
+                        color: $Gallery;
+                        font-size: 17px;
+                        background-color: $BondiBlue;
+                        border-radius: 2px;
+                        text-decoration: none;
+                        width: 80px;
+                        @include quickCenter("relative");
+                        margin-right: 0;
+                        margin-bottom: 15px;
+
+                        &:hover {
+                          background-color: $EasternBlue;
+                        }
+                      }
                     }
                   }
                 }

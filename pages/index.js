@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 // Data/Functions/Images Imports
 import ManipPageLink from "@/assets/functions/dom/manip/ManipPageLinks";
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
+import { JSON_INDEX_VEHICLES } from "@/assets/cdns/CDNFiles";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
@@ -17,11 +18,38 @@ import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMe
 
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 import { IndexUnderTop } from "@/assets/components/pages/Index/IndexUnderTop";
+import { IndexBrowse } from "@/assets/components/pages/Index/IndexBrowse";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
 
-export default function Home() {
+export async function getStaticProps() {
+  // Getting the link for the JSON
+  try {
+    const INDEX_BROWSE = await fetch(
+      "https://raw.githubusercontent.com/mxrked/carmondo_CDN/master/files/json/INDEX_VEHICLES.json"
+    );
+
+    // Parsing the data
+    const INDEX_BROWSE_DATA = await INDEX_BROWSE.json();
+
+    // Returning the props
+    return {
+      props: {
+        index_browse: INDEX_BROWSE_DATA || null,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching index browse data:", error);
+    return {
+      props: {
+        index_browse: null, // Assign null in case of an error
+      },
+    };
+  }
+}
+
+export default function Home({ index_browse }) {
   const router = useRouter();
 
   // Disabling Page Links
@@ -46,6 +74,7 @@ export default function Home() {
 
         <IndexTop />
         <IndexUnderTop />
+        <IndexBrowse index_browse={index_browse} />
 
         {/** <TestBox /> */}
       </main>

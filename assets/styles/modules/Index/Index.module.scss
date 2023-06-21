@@ -268,6 +268,7 @@
         font-size: $SubHeading;
         margin-bottom: 30px;
         @include quickCenter("relative");
+        white-space: pre-wrap;
       }
 
       a {
@@ -302,6 +303,7 @@
           max-width: 450px;
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.084);
           border-radius: 10px;
+          @include quickCenter("relative");
 
           .slider_slide_inner_img {
             background-color: #f0f0f761;
@@ -378,6 +380,9 @@
                   justify-content: flex-end;
 
                   .details_inner_side_cnt {
+                    max-width: 300px;
+                    width: 100%;
+
                     .price_set,
                     .mileage_set {
                       text-align: right;
@@ -400,7 +405,7 @@
 
                     .links {
                       @include displayElement(flex, space-between, center);
-                      width: 180px;
+                      width: 200px;
 
                       .buy {
                         @include displayElement(flex, center, center);
@@ -476,6 +481,19 @@
               height: 420px;
               max-width: 100%;
             }
+          }
+        }
+      }
+    }
+  }
+  .index_browse {
+    margin-bottom: 130px;
+
+    .index_browse_inner {
+      .index_browse_inner_slider_holder {
+        .slider_slide {
+          .slider_slide_inner {
+            max-width: 95%;
           }
         }
       }
@@ -566,6 +584,91 @@
                   a {
                     font-size: 15px;
                     max-width: 120px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_browse {
+    margin-top: 100px;
+
+    .index_browse_inner {
+      .index_browse_inner_top {
+        h1 {
+          font-size: 38px;
+          max-width: 70%;
+          line-height: 40px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        .slider_slide {
+          height: 900px;
+
+          .slider_slide_inner {
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+
+                        .buy,
+                        .trade {
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -682,6 +785,100 @@
       }
     }
   }
+  .index_browse {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 30px;
+          max-width: 80%;
+          line-height: 40px;
+        }
+
+        a {
+          font-size: 14px;
+          max-width: 150px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        .slider_slide {
+          height: 900px;
+
+          .slider_slide_inner {
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+
+                        .buy,
+                        .trade {
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Smaller Devices (Phones)
@@ -790,6 +987,134 @@
       }
     }
   }
+  .index_browse {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 25px;
+          max-width: 70%;
+          line-height: 30px;
+        }
+
+        a {
+          font-size: 13px;
+          max-width: 130px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 190px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 20px;
+                }
+
+                .type {
+                  font-size: 16px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 15px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 15px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Pixel 2 XL
@@ -885,6 +1210,134 @@
                     font-size: 13px;
                     max-width: 100px;
                     height: 35px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_browse {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 25px;
+          max-width: 70%;
+          line-height: 30px;
+        }
+
+        a {
+          font-size: 13px;
+          max-width: 130px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 190px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 20px;
+                }
+
+                .type {
+                  font-size: 16px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 15px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 15px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -998,6 +1451,136 @@
       }
     }
   }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 110px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 32px;
+          max-width: 70%;
+          line-height: 40px;
+          white-space: pre-wrap;
+        }
+
+        a {
+          font-size: 15px;
+          max-width: 150px;
+          height: 45px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 230px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 23px;
+                }
+
+                .type {
+                  font-size: 18px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 16px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 16px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
@@ -1092,6 +1675,137 @@
                     font-size: 15px;
                     max-width: 120px;
                     height: 35px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 32px;
+          max-width: 70%;
+          line-height: 40px;
+        }
+
+        a {
+          font-size: 15px;
+          max-width: 150px;
+          height: 40px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        max-width: 750px;
+
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 200px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 23px;
+                }
+
+                .type {
+                  font-size: 18px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 16px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 16px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -1206,6 +1920,137 @@
       }
     }
   }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 36px;
+          max-width: 70%;
+          line-height: 40px;
+        }
+
+        a {
+          font-size: 15px;
+          max-width: 145px;
+          height: 40px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        max-width: 850px;
+
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 220px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 27px;
+                }
+
+                .type {
+                  font-size: 20px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 17px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 17px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -1302,6 +2147,137 @@
                     font-size: 16px;
                     height: 40px;
                     max-width: 120px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 36px;
+          max-width: 70%;
+          line-height: 40px;
+        }
+
+        a {
+          font-size: 15px;
+          max-width: 145px;
+          height: 40px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        max-width: 850px;
+
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 220px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 27px;
+                }
+
+                .type {
+                  font-size: 20px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 17px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 17px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -1408,6 +2384,138 @@
                     font-size: 16px;
                     height: 40px;
                     max-width: 120px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_browse {
+    margin-top: 160px;
+    margin-bottom: 30px;
+
+    .index_browse_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .index_browse_inner_top {
+        h1 {
+          font-size: 42px;
+          max-width: 70%;
+          line-height: 50px;
+        }
+
+        a {
+          @include quickCenter("relative");
+          font-size: 16px;
+          height: 40px;
+          max-width: 150px;
+        }
+      }
+
+      .index_browse_inner_slider_holder {
+        max-width: 1150px;
+
+        .slider_slide {
+          height: 800px;
+
+          .slider_slide_inner {
+            max-width: 95%;
+
+            .slider_slide_inner_img {
+              height: 200px;
+
+              img {
+                max-width: 220px;
+              }
+            }
+
+            .slider_slide_inner_details {
+              height: 520px;
+
+              .name_and_type {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+                .name {
+                  display: block;
+                  font-size: 27px;
+                }
+
+                .type {
+                  font-size: 20px;
+                }
+              }
+
+              .details_inner_box {
+                .details_inner_row {
+                  .details_inner_side {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                  }
+
+                  .details_L {
+                    .details_inner_side_cnt {
+                      .engine_set,
+                      .transmission_set,
+                      .fuel_eco_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 17px;
+                        }
+                      }
+                    }
+                  }
+
+                  .details_R {
+                    .details_inner_side_cnt {
+                      max-width: 100%;
+                      width: 100%;
+
+                      .sets_holder {
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                      }
+
+                      .price_set,
+                      .mileage_set {
+                        text-align: center;
+
+                        strong {
+                          font-size: 17px;
+                        }
+                      }
+
+                      .links {
+                        @include quickCenter("relative");
+                        max-width: 150px;
+
+                        .buy {
+                          width: 55px;
+                        }
+
+                        .trade {
+                          width: 65px;
+                        }
+
+                        .buy,
+                        .trade {
+                          height: 40px;
+                          font-size: 14px;
+                          margin-left: auto !important;
+                          margin-right: auto !important;
+                        }
+                      }
+                    }
                   }
                 }
               }

@@ -253,6 +253,7 @@
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  white-space: pre-wrap;
 }
 .index_browse .index_browse_inner .index_browse_inner_top a {
   display: flex;
@@ -287,6 +288,8 @@
   max-width: 450px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.084);
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
   background-color: rgba(240, 240, 247, 0.3803921569);
@@ -354,6 +357,10 @@
   display: flex;
   justify-content: flex-end;
 }
+.index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+  max-width: 300px;
+  width: 100%;
+}
 .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
 .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
   text-align: right;
@@ -377,7 +384,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 180px;
+  width: 200px;
 }
 .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
   display: flex;
@@ -436,6 +443,12 @@
   .index_under_top .index_under_top_inner .index_under_top_inner_box .index_under_top_inner_row .index_under_top_side .index_under_top_side_inner {
     height: 420px;
     max-width: 100%;
+  }
+  .index_browse {
+    margin-bottom: 130px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
   }
 }
 @media all and (max-width: 991px) {
@@ -524,6 +537,62 @@
   .index_under_top .index_under_top_inner .index_under_top_inner_box .index_under_top_inner_row .index_under_top_side .index_under_top_side_inner .index_under_top_side_overlay .index_under_top_side_overlay_cnt a {
     font-size: 15px;
     max-width: 120px;
+  }
+  .index_browse {
+    margin-top: 100px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 38px;
+    max-width: 70%;
+    line-height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 900px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 @media all and (max-width: 768px) {
@@ -624,6 +693,71 @@
   }
   .index_under_top .index_under_top_inner .index_under_top_inner_box .index_under_top_inner_row .index_under_top_R {
     margin-bottom: 0;
+  }
+  .index_browse {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 30px;
+    max-width: 80%;
+    line-height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 14px;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 900px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 @media all and (max-width: 419px) {
@@ -729,6 +863,102 @@
   .index_under_top .index_under_top_inner .index_under_top_inner_box .index_under_top_inner_row .index_under_top_R {
     margin-bottom: 0;
   }
+  .index_browse {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 25px;
+    max-width: 70%;
+    line-height: 30px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 13px;
+    max-width: 130px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 190px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 20px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 16px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 15px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 15px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .index_top {
@@ -829,6 +1059,102 @@
     font-size: 13px;
     max-width: 100px;
     height: 35px;
+  }
+  .index_browse {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 25px;
+    max-width: 70%;
+    line-height: 30px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 13px;
+    max-width: 130px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 190px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 20px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 16px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 15px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 15px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -931,6 +1257,104 @@
     max-width: 120px;
     height: 35px;
   }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 110px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 32px;
+    max-width: 70%;
+    line-height: 40px;
+    white-space: pre-wrap;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 15px;
+    max-width: 150px;
+    height: 45px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 230px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 23px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 18px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 16px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 16px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .index_top {
@@ -1031,6 +1455,106 @@
     font-size: 15px;
     max-width: 120px;
     height: 35px;
+  }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 30px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 32px;
+    max-width: 70%;
+    line-height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 15px;
+    max-width: 150px;
+    height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder {
+    max-width: 750px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 23px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 18px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 16px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 16px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -1133,6 +1657,106 @@
     font-size: 15px;
     max-width: 120px;
     height: 35px;
+  }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 30px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 36px;
+    max-width: 70%;
+    line-height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 15px;
+    max-width: 145px;
+    height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder {
+    max-width: 850px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 220px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 27px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 20px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 17px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 17px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -1238,6 +1862,106 @@
     height: 40px;
     max-width: 120px;
   }
+  .index_browse {
+    margin-top: 110px;
+    margin-bottom: 30px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 36px;
+    max-width: 70%;
+    line-height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    font-size: 15px;
+    max-width: 145px;
+    height: 40px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder {
+    max-width: 850px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 220px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 27px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 20px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 17px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 17px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .index_top {
@@ -1341,5 +2065,107 @@
     font-size: 16px;
     height: 40px;
     max-width: 120px;
+  }
+  .index_browse {
+    margin-top: 160px;
+    margin-bottom: 30px;
+  }
+  .index_browse .index_browse_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top h1 {
+    font-size: 42px;
+    max-width: 70%;
+    line-height: 50px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_top a {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    height: 40px;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder {
+    max-width: 1150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide {
+    height: 800px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner {
+    max-width: 95%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img {
+    height: 200px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_img img {
+    max-width: 220px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details {
+    height: 520px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .name {
+    display: block;
+    font-size: 27px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .name_and_type .type {
+    font-size: 20px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_inner_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .engine_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .transmission_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_L .details_inner_side_cnt .fuel_eco_set strong {
+    font-size: 17px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt {
+    max-width: 100%;
+    width: 100%;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .sets_holder {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set {
+    text-align: center;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .price_set strong,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .mileage_set strong {
+    font-size: 17px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy {
+    width: 55px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    width: 65px;
+  }
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .buy,
+  .index_browse .index_browse_inner .index_browse_inner_slider_holder .slider_slide .slider_slide_inner .slider_slide_inner_details .details_inner_box .details_inner_row .details_R .details_inner_side_cnt .links .trade {
+    height: 40px;
+    font-size: 14px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }/*# sourceMappingURL=Index.module.css.map */

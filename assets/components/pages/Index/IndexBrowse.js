@@ -7,7 +7,6 @@
 import Slider from "react-slick";
 
 import styles from "../../../styles/modules/Index/Index.module.css";
-import DeclareStorageVariable from "@/assets/functions/data/storage/DeclareStorageVariable";
 
 export const IndexBrowse = (props) => {
   const SLIDER_SETTINGS = {
@@ -20,6 +19,58 @@ export const IndexBrowse = (props) => {
     arrows: true,
     dots: true,
     centerPadding: "0px",
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          centerMode: false,
+          arrows: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          centerMode: false,
+          arrows: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 668,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          centerMode: false,
+          arrows: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 560,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          arrows: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 419,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
   };
 
   return (
@@ -95,15 +146,17 @@ export const IndexBrowse = (props) => {
                           className={`${styles.details_inner_side} ${styles.details_R} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
                         >
                           <div className={`${styles.details_inner_side_cnt}`}>
-                            <div className={`${styles.price_set}`}>
-                              <strong>Price</strong>
+                            <div className={`${styles.sets_holder}`}>
+                              <div className={`${styles.price_set}`}>
+                                <strong>Price</strong>
 
-                              <span>{item.vehiclePrice}</span>
-                            </div>
-                            <div className={`${styles.mileage_set}`}>
-                              <strong>Mileage</strong>
+                                <span>{item.vehiclePrice}</span>
+                              </div>
+                              <div className={`${styles.mileage_set}`}>
+                                <strong>Mileage</strong>
 
-                              <span>{item.vehicleMileage}</span>
+                                <span>{item.vehicleMileage}</span>
+                              </div>
                             </div>
 
                             <div className={`${styles.links}`}>

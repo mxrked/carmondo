@@ -23,7 +23,7 @@ const OBJ_PICKUPS = new Type(
   BG_TYPES_PICKUPTRUCK,
   "/cars/#pickup"
 );
-const OBJ_SEDANS = new Type("T_04", "SEDANS", BG_TYPES_SEDAN, "/cars/#sedan");
+const OBJ_SEDANS = new Type("T_04", "Sedans", BG_TYPES_SEDAN, "/cars/#sedan");
 const OBJ_SUVS = new Type("T_05", "SUVs", BG_TYPES_SUV, "/cars/#suv");
 const OBJ_WAGONS = new Type("T_06", "Wagons", BG_TYPES_WAGON, "/cars/#wagon");
 

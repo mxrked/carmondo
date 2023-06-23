@@ -25,7 +25,9 @@ const Side = (props) => {
           className={`${styles.bg} bg`}
         />
 
-        <div className={`${styles.index_under_top_side_overlay}`}>
+        <div
+          className={`${styles.index_under_top_side_overlay} overlay half-second`}
+        >
           <div className={`${styles.index_under_top_side_overlay_cnt}`}>
             <h1>{props.sideH1}</h1>
 
@@ -33,24 +35,18 @@ const Side = (props) => {
               href={props.sideLink}
               className="half-second"
               onMouseEnter={(e) => {
-                const BG = e.currentTarget
+                const OVERLAY = e.currentTarget
                   .closest(".index-under-top-side")
-                  .querySelector(".bg");
+                  .querySelector(".overlay");
 
-                BG.classList.add("half-second");
-
-                BG.style.scale = 1.08;
+                OVERLAY.style.backgroundColor = "rgba(0, 0, 0, 0.85)";
               }}
               onMouseLeave={(e) => {
-                const BG = e.currentTarget
+                const OVERLAY = e.currentTarget
                   .closest(".index-under-top-side")
-                  .querySelector(".bg");
+                  .querySelector(".overlay");
 
-                BG.style.scale = 1.04;
-
-                setTimeout(() => {
-                  BG.classList.remove("half-second");
-                }, 400);
+                OVERLAY.style.backgroundColor = "rgba(0, 0, 0, 0.65)";
               }}
             >
               <span>{props.sideLinkTxt}</span>

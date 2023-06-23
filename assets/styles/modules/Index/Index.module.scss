@@ -455,6 +455,97 @@
     }
   }
 }
+.index_types {
+  margin-top: 270px;
+  margin-bottom: 350px;
+
+  .index_types_inner {
+    max-width: 1740px;
+    @include quickCenter("relative");
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    h1 {
+      font-family: "NS Extra Bold";
+      color: $EbonyClay;
+      font-size: $SubHeading;
+      margin-bottom: 60px;
+      @include quickCenter("relative");
+      white-space: pre-wrap;
+      text-align: center;
+    }
+
+    .index_types_inner_types_box {
+      .index_types_inner_types_row {
+        .type {
+          height: 450px;
+          position: relative;
+          padding: 0;
+          margin-bottom: 25px;
+
+          .type_inner {
+            position: relative;
+            height: 100%;
+            max-width: 97%;
+            @include quickCenter("relative");
+            border-radius: 15px !important;
+            overflow: hidden;
+
+            .bg {
+              // height: 450px;
+              @include bGSU(cover, center);
+            }
+
+            .overlay {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.65);
+              @include displayElement(flex, center, center);
+
+              div {
+                display: block;
+                text-align: center;
+
+                .type_name {
+                  line-height: 65px;
+                  font-family: "NS Extra Bold";
+                  color: $Gallery;
+                  font-size: $SubHeading;
+                  max-width: 400px;
+                  white-space: pre-wrap;
+                  margin-bottom: 30px;
+                  @include quickCenter("relative");
+                  display: block;
+                }
+
+                a {
+                  @include displayElement(flex, center, center);
+                  height: 45px;
+                  font-family: "NS Semi Bold";
+                  color: $Gallery;
+                  font-size: $Link;
+                  background-color: $BondiBlue;
+                  border-radius: 2px;
+                  text-decoration: none;
+                  max-width: 80px;
+                  @include quickCenter("relative");
+
+                  &:hover {
+                    background-color: $EasternBlue;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {
@@ -487,6 +578,7 @@
     }
   }
   .index_browse {
+    margin-top: 130px;
     margin-bottom: 130px;
 
     .index_browse_inner {
@@ -498,6 +590,10 @@
         }
       }
     }
+  }
+  .index_types {
+    margin-top: 130px;
+    margin-bottom: 130px;
   }
 }
 
@@ -669,6 +765,45 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .index_types_inner {
+      max-width: 770px;
+
+      h1 {
+        font-size: 38px;
+        max-width: 70%;
+        line-height: 40px;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 270px;
+
+            .type_inner {
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 30px;
+                    max-width: 100%;
+                    line-height: 20px;
+                  }
+
+                  a {
+                    font-size: 15px;
+                    max-width: 60px;
                   }
                 }
               }
@@ -870,6 +1005,47 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+    .index_types_inner {
+      max-width: 570px;
+
+      h1 {
+        font-size: 30px;
+        max-width: 100%;
+        line-height: 40px;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 270px;
+            max-width: 100%;
+            width: 100%;
+
+            .type_inner {
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 30px;
+                    max-width: 100%;
+                    line-height: 20px;
+                  }
+
+                  a {
+                    font-size: 15px;
+                    max-width: 60px;
                   }
                 }
               }
@@ -1115,6 +1291,52 @@
       }
     }
   }
+  .index_types {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    .index_types_inner {
+      max-width: 570px;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      h1 {
+        font-size: 25px;
+        max-width: 70%;
+        line-height: 30px;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 170px;
+            max-width: 100%;
+            width: 100%;
+            margin-bottom: 15px;
+
+            .type_inner {
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 25px;
+                    max-width: 100%;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                  }
+
+                  a {
+                    font-size: 13px;
+                    max-width: 50px;
+                    height: 35px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Pixel 2 XL
@@ -1221,7 +1443,7 @@
   }
   .index_browse {
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 
     .index_browse_inner {
       padding-left: 10px;
@@ -1241,6 +1463,8 @@
       }
 
       .index_browse_inner_slider_holder {
+        margin-top: 50px;
+
         .slider_slide {
           height: 800px;
 
@@ -1338,6 +1562,54 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    .index_types_inner {
+      max-width: 570px;
+      padding-left: 25px;
+      padding-right: 25px;
+
+      h1 {
+        font-size: 25px;
+        max-width: 70%;
+        line-height: 30px;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 150px;
+            max-width: 50%;
+            width: 100%;
+            margin-bottom: 15px;
+
+            .type_inner {
+              max-width: 94%;
+
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 25px;
+                    max-width: 100%;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                  }
+
+                  a {
+                    font-size: 13px;
+                    max-width: 50px;
+                    height: 35px;
                   }
                 }
               }
@@ -1453,7 +1725,7 @@
   }
   .index_browse {
     margin-top: 110px;
-    margin-bottom: 110px;
+    margin-bottom: 80px;
 
     .index_browse_inner {
       padding-left: 10px;
@@ -1572,6 +1844,55 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    .index_types_inner {
+      max-width: 770px;
+      padding-left: 55px;
+      padding-right: 55px;
+
+      h1 {
+        font-size: 32px;
+        max-width: 100%;
+        line-height: 40px;
+        white-space: pre-wrap;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 190px;
+            max-width: 50%;
+            width: 100%;
+            margin-bottom: 15px;
+
+            .type_inner {
+              max-width: 94%;
+
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 25px;
+                    max-width: 100%;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                  }
+
+                  a {
+                    font-size: 13px;
+                    max-width: 50px;
+                    height: 35px;
                   }
                 }
               }
@@ -1806,6 +2127,55 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    .index_types_inner {
+      max-width: 770px;
+      padding-left: 55px;
+      padding-right: 55px;
+
+      h1 {
+        font-size: 32px;
+        max-width: 100%;
+        line-height: 40px;
+        white-space: pre-wrap;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 210px;
+            max-width: 50%;
+            width: 100%;
+            margin-bottom: 15px;
+
+            .type_inner {
+              max-width: 94%;
+
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 32px;
+                    max-width: 100%;
+                    line-height: 40px;
+                    margin-bottom: 20px;
+                  }
+
+                  a {
+                    font-size: 15px;
+                    max-width: 60px;
+                    height: 35px;
                   }
                 }
               }
@@ -2051,6 +2421,54 @@
       }
     }
   }
+  .index_types {
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    .index_types_inner {
+      max-width: 870px;
+      padding-left: 55px;
+      padding-right: 55px;
+
+      h1 {
+        font-size: 36px;
+        max-width: 100%;
+        line-height: 40px;
+        white-space: pre-wrap;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 270px;
+            max-width: 50%;
+            width: 100%;
+            margin-bottom: 25px;
+
+            .type_inner {
+              max-width: 94%;
+
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 36px;
+                    max-width: 100%;
+                    line-height: 40px;
+                  }
+
+                  a {
+                    font-size: 15px;
+                    max-width: 60px;
+                    height: 35px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -2278,6 +2696,54 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 90px;
+    margin-bottom: 30px;
+
+    .index_types_inner {
+      max-width: 870px;
+      padding-left: 55px;
+      padding-right: 55px;
+
+      h1 {
+        font-size: 36px;
+        max-width: 100%;
+        line-height: 40px;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 240px;
+            max-width: 50%;
+            width: 100%;
+            margin-bottom: 25px;
+
+            .type_inner {
+              max-width: 94%;
+
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 36px;
+                    max-width: 100%;
+                    line-height: 40px;
+                  }
+
+                  a {
+                    @include quickCenter("relative");
+                    font-size: 16px;
+                    height: 40px;
+                    max-width: 70px;
                   }
                 }
               }
@@ -2516,6 +2982,54 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_types {
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+    .index_types_inner {
+      max-width: 1170px;
+      padding-left: 55px;
+      padding-right: 55px;
+
+      h1 {
+        font-size: 42px;
+        max-width: 100%;
+        line-height: 40px;
+      }
+
+      .index_types_inner_types_box {
+        .index_types_inner_types_row {
+          .type {
+            height: 300px;
+            max-width: 50%;
+            width: 100%;
+            margin-bottom: 25px;
+
+            .type_inner {
+              max-width: 94%;
+
+              .overlay {
+                div {
+                  .type_name {
+                    font-size: 42px;
+                    max-width: 100%;
+                    line-height: 50px;
+                  }
+
+                  a {
+                    @include quickCenter("relative");
+                    font-size: 16px;
+                    height: 40px;
+                    max-width: 70px;
                   }
                 }
               }

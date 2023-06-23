@@ -1,5 +1,14 @@
 // This file is used to hold some arrays
 
+import {
+  OBJ_ALL_VEHICLES,
+  OBJ_COUPES,
+  OBJ_PICKUPS,
+  OBJ_SEDANS,
+  OBJ_SUVS,
+  OBJ_WAGONS,
+} from "../variables/OBJECTS";
+
 const INDEX_KWS = [
   "carmondo",
   "used cars",
@@ -70,4 +79,14 @@ const CARS_KWS = [
   "volvo v60",
 ];
 
+const VEHICLE_TYPES = [
+  OBJ_ALL_VEHICLES,
+  OBJ_COUPES,
+  OBJ_PICKUPS,
+  OBJ_SEDANS,
+  OBJ_SUVS,
+  OBJ_WAGONS,
+];
+
 export { INDEX_KWS, INFO_KWS, CARS_KWS, CONTACT_KWS };
+export { VEHICLE_TYPES };

@@ -286,6 +286,27 @@
       }
     }
   }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -333,6 +354,28 @@
       }
     }
   }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Smaller Devices (Phones)
@@ -374,6 +417,28 @@
       .slick-next,
       .slick-prev {
         max-width: 30px;
+      }
+    }
+  }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 18px;
+            }
+          }
+        }
       }
     }
   }
@@ -421,6 +486,28 @@
       }
     }
   }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Ipad
@@ -465,6 +552,28 @@
       }
     }
   }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
@@ -505,6 +614,28 @@
       .slick-next,
       .slick-prev {
         max-width: 40px;
+      }
+    }
+  }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
   }
@@ -552,6 +683,28 @@
       }
     }
   }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -592,6 +745,28 @@
       .slick-next,
       .slick-prev {
         max-width: 40px;
+      }
+    }
+  }
+  .overrides_IndexBrowse {
+    .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 5px;
+          margin-left: 10px;
+
+          button {
+            &::before {
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
   }
@@ -641,6 +816,25 @@
   }
   .overrides_IndexBrowse {
     .slick-slider {
+      .slick-dots {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          margin: 10px;
+          margin-left: 7px;
+
+          button {
+            &::before {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+
       .slick-prev {
         height: 89.5%;
       }

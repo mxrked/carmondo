@@ -19,6 +19,7 @@ import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMe
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 import { IndexUnderTop } from "@/assets/components/pages/Index/IndexUnderTop";
 import { IndexBrowse } from "@/assets/components/pages/Index/IndexBrowse";
+import { IndexTypes } from "@/assets/components/pages/Index/IndexTypes";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -75,6 +76,7 @@ export default function Home({ index_browse }) {
         <IndexTop />
         <IndexUnderTop />
         <IndexBrowse index_browse={index_browse} />
+        <IndexTypes />
 
         {/** <TestBox /> */}
       </main>
